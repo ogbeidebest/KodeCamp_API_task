@@ -35,4 +35,7 @@ function getPosts() {
 
 
 getPosts();
-posts = localStorage.setItem("post", num);
+
+function sadCard(num) {
+    localStorage.setItem("postId", num)
+}
