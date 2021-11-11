@@ -26,12 +26,12 @@ function getPosts() {
                 postLayout.innerHTML = html
 
             });
-
+            var posts = localStorage.setItem("post", JSON.stringify(posts));
 
 
         })
 }
-var posts = localStorage.setItem("post", JSON.stringify(posts));
+
 
 
 getPosts();
